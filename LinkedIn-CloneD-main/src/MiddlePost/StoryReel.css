@@ -1,0 +1,16 @@
+.storyReel {
+  display: flex;
+  max-width: 460px;
+}
+.add__story {
+  padding-top: 50px;
+}
+.storyreel_scroll {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  max-width: 700px;
+}
+.storyreel_scroll::-webkit-scrollbar {
+  display: none;
+}
